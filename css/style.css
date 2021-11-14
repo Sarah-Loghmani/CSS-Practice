@@ -3,24 +3,30 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.logo-container{
+    display: flex;
+
+}
 .logo{
     border: dashed red 3px;
-    border-radius: 50%;
-    padding: 8px;
-    margin: 20px;
-    display: inline-block;
+    border-radius: 40% 10% 10% 60%;
+    padding: 3px;
+    margin: 10px 0px 0px 30px ;
 }
 .title{
     background: rgba(221, 205, 183, 0.657);
     width: 190px;
-    padding:0px 8px 8px 0px ;
-    margin-left: -60px;
+    margin: 10px 1px -4px ;
+    padding:20px 0px 0px 1px ;
     color: rgb(129, 7, 32);
     border-radius: 40% 30% 300% 50%;
-    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
 }
+.nav{
+    display: inline-table;
+    flex-flow: wrap row-reverse;
+}
 .contents{
-    
+    flex-flow: wrap row-reverse;
 }
