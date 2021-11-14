@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    border: dashed red 3px;
+    border-radius: 50%;
+    min-height: 80px;
+    width: 100px;
+    padding: 8px;
+    background: gold;
+    margin: 15px;
+}
+.title{
+    background: rgba(221, 205, 183, 0.657);
+    color: rgb(129, 7, 32);
+    
+}
