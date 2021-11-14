@@ -8,10 +8,11 @@
 
 }
 .logo{
-    border: dashed red 3px;
+    /* border: dashed red 3px; */
     border-radius: 40% 10% 10% 60%;
     padding: 3px;
     margin: 10px 0px 0px 30px ;
+    background: rgba(221, 205, 183, 0.657);
 }
 .title{
     background: rgba(221, 205, 183, 0.657);
@@ -27,4 +28,9 @@
     display: flex;
     flex-flow: wrap row-reverse;
     justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-family: 'Yuji Syuku', serif;
+    background: rgb(240, 196, 86);
+    min-height: 30px;
 }
