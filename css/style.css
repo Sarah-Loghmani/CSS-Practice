@@ -19,18 +19,33 @@
     width: 190px;
     margin: 10px 1px -8px ;
     padding:20px 0px 0px 1px ;
-    color: rgb(129, 7, 32);
+    color: #0097A7;
     border-radius: 40% 30% 300% 50%;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
+    font-size: 2rem;
 }
 .nav{
     display: flex;
-    flex-flow: wrap row-reverse;
-    justify-content: space-evenly;
+    flex-flow: wrap;
+    justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
     font-family: 'Yuji Syuku', serif;
     background: rgb(240, 196, 86);
     min-height: 30px;
+}
+.options{
+    color:rgb(129, 7, 32);
+}
+.css-img2{
+    margin-top:-50px ;
+    opacity: 60%;
+}
+
+
+.rule-img{
+    display: flex;
+  justify-content: center;
+  width: 100%;
 }
