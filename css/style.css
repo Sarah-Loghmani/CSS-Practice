@@ -6,14 +6,19 @@
 .logo{
     border: dashed red 3px;
     border-radius: 50%;
-    min-height: 80px;
-    width: 100px;
     padding: 8px;
-    background: gold;
-    margin: 15px;
+    margin: 20px;
+    display: inline-block;
 }
 .title{
     background: rgba(221, 205, 183, 0.657);
+    width: 190px;
+    padding:0px 8px 8px 0px ;
+    margin-left: -60px;
     color: rgb(129, 7, 32);
-    
+    border-radius: 40% 30% 300% 50%;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive;
 }
+
