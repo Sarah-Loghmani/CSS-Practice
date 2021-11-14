@@ -24,9 +24,7 @@
     font-family: 'Road Rage', cursive;
 }
 .nav{
-    display: inline-table;
+    display: flex;
     flex-flow: wrap row-reverse;
-}
-.contents{
-    flex-flow: wrap row-reverse;
+    justify-content: space-evenly;
 }
