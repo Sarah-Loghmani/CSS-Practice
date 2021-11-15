@@ -83,9 +83,13 @@ header{
 }
 .definition{
     background:rgb(238, 219, 132);
-    border-style: solid none;
+    /* border-style: solid none; */
     /* border: 10px black; */
+    /* border: ; */
     padding: 30px;
+    margin: -4px 0px 5px 0px;
+    text-align: justify;
+    /* border-style:none none solid solid;  */
 }
 .h1{
     color: rgb(129, 7, 32);
@@ -111,19 +115,19 @@ header{
 h2{
     background-color: rgb(76, 109, 201);
     color: white;
-    margin: 5px 0px;
+    margin: 2px 0px;
     padding: 10px;
      font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
-    font-family: 'Yuji Syuku', serif;    
+    font-family: 'Yuji Syuku', serif; 
+    font-size: 2rem;   
 }
 .arrow2{
     margin: 5px 0px -50px 30px;
-
     width: 0px;
     min-height: 0px;
     border: solid 30px;
-    border-color:  transparent transparent transparent rgb(20, 150, 122);  
+    border-color:  transparent transparent transparent rgb(76, 109, 201);  
 }
 .rules-section{
   display: flex;
@@ -135,6 +139,7 @@ h2{
 }
 .figure1{
     border: solid rgb(14, 134, 233) 4px;
+    border-radius: 4%;
     display: flex;
     flex-flow: column-reverse;
     justify-content: space-between ;
