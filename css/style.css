@@ -11,8 +11,6 @@ header{
 }
 .logo-container{
     display: flex;
-   
-
 }
 .logo{
     border-radius: 40% 10% 10% 60%;
@@ -30,6 +28,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
     font-size: 2rem;
+    position: relative;
 }
 .nav{
     display: flex;
@@ -44,16 +43,34 @@ header{
 .options{
     color:rgb(129, 7, 32);
 }
+.div-a{
+    display: flex;
+    flex-flow: wrap column;
+    width: 100vw;
+    height: ;
+}
 .css-img1, css-img2{
     position: relative;
     left: 35px;
+}
+.css1{
+    position: relative; left: 10px
+}
+.css2{
+    position: relative; left: 5px
 }
 .css-img2{
     margin-top:-50px ;
     opacity: 60%;
 }
+.definition{
+    background:rgb(238, 219, 132);
+    border-style: solid none;
+    /* border: 10px black; */
+    padding: 15px;
+}
 .rule-img-div{
-    display: flex;
+  display: flex;
   justify-content: center;
   background-color: rgb(20, 150, 122);
 }
@@ -61,8 +78,15 @@ header{
     width: 500px;
     height: 150px;
 }
+h2{
+    background-color: rgb(76, 109, 201);
+    color: white;
+    margin: 5px 0px;
+    padding: 10px;    
+}
 .rules-section{
   display: flex;
+  justify-content: center;
 }
 .anchor-figcap{
   text-decoration: none;
