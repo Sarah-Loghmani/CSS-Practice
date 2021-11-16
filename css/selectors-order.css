@@ -74,7 +74,7 @@ header{
 }
 /* start start start  */
 .start{
-    background: content-box  rgb(59, 201, 206);
+    background: content-box  rgba(59, 201, 206, 0.61);
     color: rgb(18, 18, 117);
     margin-top: -3.8px;
 }
