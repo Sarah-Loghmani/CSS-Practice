@@ -138,7 +138,7 @@ h2{
   text-decoration: none;
 }
 .figure1{
-    border: solid rgb(14, 134, 233) 4px;
+    border: solid rgb(20, 150, 122) 4px;
     border-radius: 4%;
     display: flex;
     flex-flow: column-reverse;
@@ -147,11 +147,21 @@ h2{
     min-height: 220px;
     margin: 30px;
 }
+.figure1:hover{
+    border: solid rgb(14, 134, 233) 4px;
+    border-radius: 4%;  
+    background-color: .figcap1:hover{
+    background-color: rgb(14, 134, 233);
+};
+}
 .figcap1{
     text-align: center;
-    background-color: rgb(14, 134, 233);
+    background-color: rgb(20, 150, 122);
     font-size: 1.2em;
     color: rgb(241, 235, 235);
+}
+.figcap1:hover{
+    background-color: rgb(14, 134, 233);
 }
 .order{
     order:-1;
