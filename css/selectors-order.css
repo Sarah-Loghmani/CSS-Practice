@@ -74,14 +74,123 @@ header{
 }
 /* start start start  */
 .start{
-    background: content-box radial-gradient(rgba(204, 169, 71, 0.548), skyblue);
+    background: content-box  rgb(59, 201, 206);
     color: rgb(18, 18, 117);
-    margin: -3.8px;
+    margin-top: -3.8px;
 }
 .h1start{
     padding: 10px 30px;
    font-family: 'Yuji Syuku', serif;
 }
+.p-start{
+    padding: 10px 30px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 550;
+    font-size: larger;
+}
+.at-start-div{
+     padding: 10px 45px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 550;
+    font-size: larger;
+}
+.order{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* height: 200px; */
+    align-items: flex-end;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    /* flex-shrink: 1; */
+}
+
+.order1{
+    background-color: darkred;
+    width: 200px;
+    min-height: 200px;
+     color:rgb(20, 218, 224);
+     text-align: center;
+     padding-top:80px ;
+     margin: 10px;
+     font-size: 2.5rem;
+     /* align-self: flex-start; */
+      font-family: 'Dosis', sans-serif;
+       font-weight: 550;
+}
+.order2{
+    background-color: orange;
+    width: 160px;
+    min-height: 160px;
+     color:rgb(105, 227, 231);
+     text-align: center;
+     padding-top:65px ;
+     margin: 10px;
+     font-size: 2rem;
+      font-family: 'Dosis', sans-serif;
+       font-weight: 660;
+}
+.order3{
+    background-color: yellow;
+    width: 130px;
+    min-height: 130px;
+    color:rgb(48, 187, 192);
+    text-align: center;
+    padding-top:50px ;
+    margin: 10px;
+    font-size: 1.75rem;
+    /* align-self: flex-end; */
+    font-family: 'Dosis', sans-serif;
+       font-weight: 660;
+}
+.order4{
+    background-color: green;
+    width: 100px;
+    min-height: 100px;
+    color:rgb(16, 211, 218);
+    text-align: center;
+    padding-top:20px ;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: 'Dosis', sans-serif;
+       font-weight: 660;
+}
+.order5{
+    background-color: blue;
+    width: 90px;
+    min-height: 90px;
+    color:rgb(103, 238, 243);
+    text-align: center;
+    padding-top:20px ;
+    margin: 10px;
+    font-size: 1.3rem;
+    font-family: 'Dosis', sans-serif;
+       font-weight: 660;
+    /* align-self: flex-end; */
+}
+.order6{
+    background-color: purple;
+    width: 70px;
+    min-height: 70px;
+    color:rgb(73, 232, 238);
+    text-align: center;
+    padding-top:12px; 
+    margin: 10px;
+    font-size: 1rem;
+    font-family: 'Dosis', sans-serif;
+       font-weight: 660;
+    /* align-self: flex-start; */
+}
+.common{
+      text-align: center;
+      padding-top: ;
+
+}
+
+
+
+
+
 
 
 
