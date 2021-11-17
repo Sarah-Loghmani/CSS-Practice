@@ -178,7 +178,7 @@ header{
 .elements{
     background-color: rgba(241, 146, 129, 0.753);
     color: rgb((35, 35, 36));
-    min-height: 400px;
+    min-height: 450px;
     padding: 0px 30px;
      font-family: 'Dosis', sans-serif;
     font-weight: 550;
@@ -223,6 +223,17 @@ header{
     padding-top: 35px;
     font-size:large ;
     text-align: center;
+}
+.link{
+    text-decoration:wavy ;
+    margin: 50px;
+    color: rgb(26, 114, 60);
+    display: inline-block;
+    /* background-color: darkolivegreen; */
+    font-size: 1.5rem
+}
+.link :hover{
+    color: darkblue;
 }
 .pseudo-class-first{
     display: flex;
