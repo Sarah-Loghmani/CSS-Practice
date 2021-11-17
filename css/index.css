@@ -87,6 +87,7 @@ header{
     /* border: ; */
     padding: 30px;
     margin: -4px 0px 5px 0px;
+    padding: 50px;
     text-align: justify;
     /* border-style:none none solid solid;  */
     font-family: 'Dosis', sans-serif;
@@ -141,6 +142,9 @@ header{
 .anchor-figcap{
   text-decoration: none;
 }
+.img1{
+    border-radius: 4%;
+}
 .figure1{
     border: solid rgb(20, 150, 122) 4px;
     border-radius: 4%;
@@ -164,7 +168,7 @@ header{
     font-weight: 600;
 }
 .order{
-    order:-1;
+    /* order:-1; */
 }
 .elements-img{
     display: flex;
@@ -173,9 +177,13 @@ header{
 }
 .elements{
     background-color: rgba(241, 146, 129, 0.753);
-    color: rgb(35, 87, 172);
+    color: rgb((35, 35, 36));
     height: 400px;
     padding: 0px 30px;
+     font-family: 'Dosis', sans-serif;
+    font-weight: 550;
+    font-size: larger;
+    
 }
 .elements-h2{
      background-color: rgb(138, 113, 118);
@@ -188,12 +196,15 @@ header{
     font-size: 2rem; 
 }
 .arrow3{
-     margin: 5px 0px -50px 30px;
+     margin: 5px 0px -25px 10px;
     width: 0px;
     min-height: 0px;
     border: solid 30px;
-    border-color:  rgb(3, 143, 124) transparent transparent transparent ;
-    margin-bottom: 1px ;  
+    border-color:  rgb(138, 113, 118) transparent transparent transparent ;
+}
+.elements h3{
+    font-weight: 770;
+    font-size: 1.5rem;
 }
 .elements-li{
     display:  flex;
@@ -201,19 +212,23 @@ header{
   /* align-items: center; */
   /* padding: 10px; */
   list-style: none;
+  padding: 20px;
+  /* flex-wrap: wrap; */
 
 
 }
 .elements-li li{
-    background-color: cadetblue;
-    width: 75px;
-    min-height: 50px;
-    padding-top: 13px;
+    background-color: rgba(95, 160, 146, 0.705);
+    width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    padding-top: 35px;
+    font-size:large ;
+    text-align: center;
     
 }
 .fixed{
     background-color: brown;
-    color: cornsilk;
     min-height: 50px;
     width: 50px;
     text-align: center;
@@ -221,12 +236,19 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
     font-family: 'Yuji Syuku', serif; 
-    padding: 8px ;
+    padding: 10px ;
     /* display: flex; */
     position: fixed;
     bottom: 15px;
     right: 15px;
+    font-size: 1.3rem;
 
+
+}
+.fixed-up{
+    text-decoration: none;
+    color: cornsilk;
+ 
 
 }
 

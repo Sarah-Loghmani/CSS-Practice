@@ -96,7 +96,6 @@ header{
 }
 .order{
     display:flex;
-    flex-direction: row;
     justify-content: space-evenly;
     /* height: 200px; */
     align-items: baseline;
@@ -244,6 +243,4 @@ width: 60px;
     position: fixed;
     bottom: 15px;
     right: 15px;
-
-
 }
