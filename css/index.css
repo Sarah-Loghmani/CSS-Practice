@@ -295,47 +295,55 @@ header{
 .classes-li :nth-child(1){
     position: relative;
     left: 100px;
+    border-radius: 70% 50% 70% 56%;
 }
 /* :checked */
 .classes-li :nth-child(2){
     position: relative;
     /* left: 300px; */
+       border-radius: 30% 70% 69% 31% / 55% 35% 65% 45%;
 }
 /* :hover */
 .classes-li :nth-child(3){
     position: relative;
     right: 100px;
     /* bottom: 100px; */
+    border-radius: 22% 78% 20% 80% / 55% 13% 87% 45% ;
 }
 /* :visited */
 .classes-li :nth-child(4){
     position: relative;
     /* right: 150px; */
     /* bottom: 100px; */
+    border-radius: 22% 78% 50% 50% / 55% 13% 87% 45% ;
 }
 /* :first-child */
 .classes-li :nth-child(5){
     position: relative;
     left: 100px;
     /* bottom: 150px; */
+    border-radius: 22% 78% 65% 35% / 55% 60% 40% 45% ;
 }
 /* :not() */
 .classes-li :nth-child(6){
     position: relative;
     /* right: 700px; */
     /* bottom: 500px; */
+    border-radius: 76% 24% 65% 35% / 70% 77% 23% 30% ;
 }
 /* :nth-child() */
 .classes-li :nth-child(7){
     position: relative;
     right: 100px;
     /* bottom: 450px; */
+    border-radius: 76% 24% 65% 35% / 70% 40% 60% 30% ;
 }
 /* :nth-of-type() */
 .classes-li :nth-child(8){
     position: relative;
     /* left: 90px; */
     /* bottom: 600px; */
+    border-radius: 76% 24% 65% 35% / 22% 40% 60% 78% ;
 }
 /* .etc */
 .classes-li :nth-child(9){
