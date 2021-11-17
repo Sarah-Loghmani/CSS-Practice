@@ -100,8 +100,8 @@ header{
     justify-content: space-evenly;
     /* height: 200px; */
     align-items: baseline;
-    /* flex-wrap: wrap; */
-    /* align-content: center; */
+    flex-wrap: wrap;
+    /* align-content: stretch; */
     /* flex-shrink: 1; */
 }
 .order1{
@@ -125,7 +125,7 @@ header{
     background-color: orange;
     width: 170px;
     min-height: 170px;
-     color:rgb(66, 145, 148);
+     color:rgb(80, 144, 146);
      text-align: center;
      /* padding-top:65px ; */
      margin: 10px;
