@@ -178,12 +178,12 @@ header{
 .elements{
     background-color: rgba(241, 146, 129, 0.753);
     color: rgb((35, 35, 36));
-    height: 400px;
+    min-height: 400px;
     padding: 0px 30px;
      font-family: 'Dosis', sans-serif;
     font-weight: 550;
     font-size: larger;
-    
+      border-bottom: solid rgb(35, 35, 36) 10px;
 }
 .elements-h2{
      background-color: rgb(138, 113, 118);
@@ -209,13 +209,11 @@ header{
 .elements-li{
     display:  flex;
   justify-content: space-around;
-  /* align-items: center; */
-  /* padding: 10px; */
+  align-items: center;
   list-style: none;
   padding: 20px;
-  /* flex-wrap: wrap; */
-
-
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 .elements-li li{
     background-color: rgba(95, 160, 146, 0.705);
@@ -225,7 +223,6 @@ header{
     padding-top: 35px;
     font-size:large ;
     text-align: center;
-    
 }
 .fixed{
     background-color: brown;
