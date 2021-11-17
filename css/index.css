@@ -224,6 +224,51 @@ header{
     font-size:large ;
     text-align: center;
 }
+.pseudo-class-first{
+    display: flex;
+    justify-content: center;
+    background: url(../img/CSS-Pseudo-element-Selectors-1500x500.png) center;
+}
+.pseudo-class-first img{
+    width: 400px;
+
+}
+.classes{
+    background: rgb(100, 175, 237);
+     color: rgb((35, 35, 36));
+    min-height: 400px;
+    padding: 0px 30px;
+     font-family: 'Dosis', sans-serif;
+    font-weight: 550;
+    font-size: larger;
+}
+.classes-h2{
+     background-color: rgba(37, 148, 115, 0.822);
+    color: rgb(35, 35, 36);
+    margin: 2px -30px;
+    padding: 5px 10px 5px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-family: 'Yuji Syuku', serif; 
+    font-size: 2rem; 
+}
+.arrow4{
+     margin: 5px 0px -25px 10px;
+    width: 0px;
+    min-height: 0px;
+    border: solid 30px;
+    border-color:  rgba(37, 148, 115, 0.822) transparent transparent transparent ;
+}
+.classes-li{
+      display:  flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
 .fixed{
     background-color: brown;
     min-height: 50px;
