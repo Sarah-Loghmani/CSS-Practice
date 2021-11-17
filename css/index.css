@@ -114,7 +114,7 @@ header{
     width: 480px;
     min-height: 150px;
 }
-h2{
+.rules-h2{
     background-color: rgb(76, 109, 201);
     color: white;
     margin: 2px 0px;
@@ -135,6 +135,8 @@ h2{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-content: center;
+  min-height: 400px;
 }
 .anchor-figcap{
   text-decoration: none;
@@ -164,13 +166,50 @@ h2{
 .order{
     order:-1;
 }
+.elements-img{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 35, 36);
+}
 .elements{
-    background-color: rgba(216, 104, 84, 0.801);
+    background-color: rgba(241, 146, 129, 0.753);
     color: rgb(35, 87, 172);
+    height: 400px;
+    padding: 0px 30px;
+}
+.elements-h2{
+     background-color: rgb(138, 113, 118);
+    color: rgb(35, 35, 36);
+    margin: 2px -30px;
+    padding: 5px 10px 5px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-family: 'Yuji Syuku', serif; 
+    font-size: 2rem; 
+}
+.arrow3{
+     margin: 5px 0px -50px 30px;
+    width: 0px;
+    min-height: 0px;
+    border: solid 30px;
+    border-color:  rgb(3, 143, 124) transparent transparent transparent ;
+    margin-bottom: 1px ;  
 }
 .elements-li{
-  display:  flex;
-  
+    display:  flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  /* padding: 10px; */
+  list-style: none;
+
+
+}
+.elements-li li{
+    background-color: cadetblue;
+    width: 75px;
+    min-height: 50px;
+    padding-top: 13px;
+    
 }
 .fixed{
     background-color: brown;
