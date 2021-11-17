@@ -73,3 +73,32 @@ header{
     opacity: 50%;
 }
 /* start start start  */
+
+
+
+
+
+.fixed{
+    background-color: brown;
+    min-height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-family: 'Yuji Syuku', serif; 
+    padding: 10px ;
+    /* display: flex; */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 1.3rem;
+
+
+}
+.fixed-up{
+    text-decoration: none;
+    color: cornsilk;
+ 
+
+}
