@@ -28,7 +28,6 @@ header{
     /* font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive; */
     font-size: 1.08rem;
-    /* position: relative; */
      font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
     font-family: 'Yuji Syuku', serif;
@@ -99,10 +98,7 @@ table, th, td{
     border-collapse:collapse;
     text-align: center;
       font-family: 'Dosis', sans-serif;
-    /* font-weight: 550; */
-    /* font-size: larger; */
 }
-
 th{
     height: 50px;
     background-color: rgb(216, 158, 83);
@@ -126,13 +122,6 @@ tr{
 tr:hover{
     background-color: rgb(248, 246, 237);
 }
-
-
-
-
-
-
-
 .fixed{
     background-color: brown;
     min-height: 50px;
@@ -147,17 +136,12 @@ tr:hover{
     bottom: 15px;
     right: 15px;
     font-size: 1.rem;
-
-
 }
 .fixed-up{
     text-decoration: none;
     color: cornsilk;
- 
-
 }
 footer p{
     text-align: center;
          font-family: 'Road Rage', cursive;
-
 }
