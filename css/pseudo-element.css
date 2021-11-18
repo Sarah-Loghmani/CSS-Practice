@@ -79,21 +79,30 @@ header{
     min-height: 500px;
     padding: 30px;
 }
+.table h2{
+     font-family: 'Yuji Syuku', serif;
+     padding-left: 30px;
+}
 .table div{
     display:flex;
     flex-direction: row-reverse;
     justify-content:space-evenly ;
     margin-top: 40px;
+    align-items: center;
 }
 .table img{
-    width: 400px;
-    min-height: 300px;
+    width: 420px;
+    min-height: 315px;
 }
 table, th, td{
     border: solid rgb(238, 170, 163)  5px;
     border-collapse:collapse;
     text-align: center;
+      font-family: 'Dosis', sans-serif;
+    /* font-weight: 550; */
+    /* font-size: larger; */
 }
+
 th{
     height: 50px;
     background-color: rgb(216, 158, 83);
@@ -114,6 +123,9 @@ tr :nth-child(1){
 tr{
     background-color: rgba(95, 158, 160, 0.774);
 }
+tr:hover{
+    background-color: rgb(248, 246, 237);
+}
 
 
 
@@ -131,11 +143,10 @@ tr{
     font-family: 'Road Rage', cursive;
     font-family: 'Yuji Syuku', serif; 
     padding: 10px ;
-    /* display: flex; */
     position: fixed;
     bottom: 15px;
     right: 15px;
-    font-size: 1.3rem;
+    font-size: 1.rem;
 
 
 }
