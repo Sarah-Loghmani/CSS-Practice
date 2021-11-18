@@ -28,7 +28,6 @@ header{
     /* font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive; */
     font-size: 1.08rem;
-    /* position: relative; */
      font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
     font-family: 'Yuji Syuku', serif;
@@ -51,20 +50,12 @@ header{
 .options:hover{
     color: rgb(236, 18, 62);
 }
-.div-a{
-    /* display: flex;
-    flex-flow: wrap column; */
-
-}
 .css1, .css2, .css3{
     width: 30vw;
     min-height: 20vh;
 }
 .css-img1 {
     position: relative;
-    /* left: 50px; */
-    /* width: 1213px; */
-    /* background-color: grey; */
     display: flex;
     justify-content: flex-end;
 }
@@ -79,11 +70,7 @@ header{
 .css-img2{
     margin-top:-40px ;
     opacity: 50%;
-    /* background-color: black; */
 }
-
-
-
 .fixed{
     background-color: brown;
     color: cornsilk;
@@ -95,15 +82,11 @@ header{
     font-family: 'Road Rage', cursive;
     font-family: 'Yuji Syuku', serif; 
     padding: 8px ;
-    /* display: flex; */
     position: fixed;
     bottom: 15px;
     right: 15px;
-
-
 }
 footer p{
     text-align: center;
          font-family: 'Road Rage', cursive;
-
 }
