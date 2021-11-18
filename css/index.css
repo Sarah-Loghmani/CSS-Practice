@@ -26,11 +26,9 @@ header{
     color: #1e94a1;
     border-radius: 40% 30% 300% 50%;
     font-size: 1.08rem;
-    /* position: relative; */
     font-family: 'Montserrat', sans-serif;
     font-family: 'Yuji Syuku', serif;
     font-weight: 2000;
-    
 }
 .nav{
     display: flex;
@@ -50,20 +48,12 @@ header{
 .options:hover{
     color: rgb(236, 18, 62);
 }
-.div-a{
-    /* display: flex;
-    flex-flow: wrap column; */
-
-}
 .css1, .css2, .css3{
     width: 30vw;
     min-height: 20vh;
 }
 .css-img1 {
     position: relative;
-    /* left: 50px; */
-    /* width: 1213px; */
-    /* background-color: grey; */
     display: flex;
     justify-content: flex-end;
 }
@@ -78,18 +68,13 @@ header{
 .css-img2{
     margin-top:-40px ;
     opacity: 50%;
-    /* background-color: black; */
 }
 .definition{
     background:rgb(238, 219, 132);
-    /* border-style: solid none; */
-    /* border: 10px black; */
-    /* border: ; */
     padding: 30px;
     margin: -4px 0px 5px 0px;
     padding: 50px;
     text-align: justify;
-    /* border-style:none none solid solid;  */
     font-family: 'Dosis', sans-serif;
     font-weight: 550;
     font-size: larger;
@@ -231,7 +216,6 @@ header{
    left: 450px;
     color: rgb(26, 114, 60);
     display: inline-block;
-    /* background-color: darkolivegreen; */
     font-size: 1.5rem;
     background:rgba(241, 146, 129, 0.753);
     border-radius: 10%;
@@ -246,7 +230,6 @@ header{
 }
 .pseudo-class-first img{
     width: 400px;
-
 }
 .classes{
     background: rgb(100, 175, 237);
@@ -277,12 +260,10 @@ header{
 .classes-li{
       display:  flex;
       flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   list-style: none;
   padding: 20px;
   flex-wrap: wrap;
-  /* align-content: space-around; */
   row-gap: 5px;
 }
 .classes-li li{
@@ -293,7 +274,6 @@ header{
     padding-top: 35px;
     font-size:large ;
     text-align: center;
-
 }
 /* :active */
 .classes-li :nth-child(1){
@@ -304,65 +284,51 @@ header{
 /* :checked */
 .classes-li :nth-child(2){
     position: relative;
-    /* left: 300px; */
        border-radius: 30% 70% 69% 31% / 55% 35% 65% 45%;
 }
 /* :hover */
 .classes-li :nth-child(3){
     position: relative;
     right: 100px;
-    /* bottom: 100px; */
     border-radius: 22% 78% 20% 80% / 55% 13% 87% 45% ;
 }
 /* :visited */
 .classes-li :nth-child(4){
     position: relative;
-    /* right: 150px; */
-    /* bottom: 100px; */
     border-radius: 22% 78% 50% 50% / 55% 13% 87% 45% ;
 }
 /* :first-child */
 .classes-li :nth-child(5){
     position: relative;
     left: 100px;
-    /* bottom: 150px; */
     border-radius: 22% 78% 65% 35% / 55% 60% 40% 45% ;
 }
 /* :not() */
 .classes-li :nth-child(6){
     position: relative;
-    /* right: 700px; */
-    /* bottom: 500px; */
     border-radius: 76% 24% 65% 35% / 70% 77% 23% 30% ;
 }
 /* :nth-child() */
 .classes-li :nth-child(7){
     position: relative;
     right: 100px;
-    /* bottom: 450px; */
     border-radius: 76% 24% 65% 35% / 70% 40% 60% 30% ;
 }
 /* :nth-of-type() */
 .classes-li :nth-child(8){
     position: relative;
-    /* left: 90px; */
-    /* bottom: 600px; */
     border-radius: 76% 24% 65% 35% / 22% 40% 60% 78% ;
 }
 /* .etc */
 .classes-li :nth-child(9){
     position: relative;
     right: 200px;
-    /* bottom: 800px; */
     text-decoration: none;
     color: rgb(35, 35, 36);
 }
 .classes-li :nth-child(9) :hover{
     background-color: rgb(236, 191, 76);
 }
-
-
-
 .fixed{
     background-color: brown;
     min-height: 50px;
@@ -373,19 +339,18 @@ header{
     font-family: 'Road Rage', cursive;
     font-family: 'Yuji Syuku', serif; 
     padding: 10px ;
-    /* display: flex; */
     position: fixed;
     bottom: 15px;
     right: 15px;
     font-size: 1.3rem;
-
-
 }
 .fixed-up{
     text-decoration: none;
     color: cornsilk;
- 
-
+}
+footer p{
+    text-align: center;
+         font-family: 'Road Rage', cursive;
 }
 
 

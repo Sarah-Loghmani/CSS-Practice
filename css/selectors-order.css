@@ -244,3 +244,15 @@ width: 60px;
     bottom: 15px;
     right: 15px;
 }
+footer p{
+    text-align: center;
+         font-family: 'Road Rage', cursive;
+
+}
+.link2{
+    background-color:rgba(103, 238, 243, 0.904) ;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 20px;
+   font-family: 'Dosis', sans-serif;
+}
