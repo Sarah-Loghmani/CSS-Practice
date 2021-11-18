@@ -28,7 +28,6 @@ header{
     /* font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive; */
     font-size: 1.08rem;
-    /* position: relative; */
      font-family: 'Montserrat', sans-serif;
     font-family: 'Road Rage', cursive;
     font-family: 'Yuji Syuku', serif;
@@ -97,11 +96,8 @@ header{
 .order{
     display:flex;
     justify-content: space-evenly;
-    /* height: 200px; */
     align-items: baseline;
     flex-wrap: wrap;
-    /* align-content: stretch; */
-    /* flex-shrink: 1; */
 }
 .order1{
     background-color: rgb(139, 0, 0);
@@ -109,10 +105,8 @@ header{
     min-height: 200px;
      color:rgb(20, 218, 224);
      text-align: center;
-     /* padding-bottom:-50px ; */
      margin: 10px;
      font-size: 2.3rem;
-     /* align-self: flex-start; */
       font-family: 'Dosis', sans-serif;
        font-weight: 550;
        display: flex;
@@ -126,7 +120,6 @@ header{
     min-height: 170px;
      color:rgb(80, 144, 146);
      text-align: center;
-     /* padding-top:65px ; */
      margin: 10px;
      font-size: 2.2rem;
       font-family: 'Dosis', sans-serif;
@@ -142,10 +135,8 @@ header{
     min-height: 140px;
     color:rgb(48, 187, 192);
     text-align: center;
-    /* padding-left:0px ; */
     margin: 10px;
     font-size: 1.7rem;
-    /* align-self: flex-end; */
     font-family: 'Dosis', sans-serif;
        font-weight: 550;
         display: flex;
@@ -162,7 +153,6 @@ header{
     min-height: 125px;
     color:rgb(16, 211, 218);
     text-align: center;
-    /* padding-top:20px ; */
     margin: 10px;
     font-size: 1.3rem;
     font-family: 'Dosis', sans-serif;
@@ -181,12 +171,10 @@ header{
     min-height: 120px;
     color:rgb(103, 238, 243);
     text-align: center;
-    /* padding-top:20px ; */
     margin: 10px;
     font-size: 1rem;
     font-family: 'Dosis', sans-serif;
        font-weight: 550;
-    /* align-self: flex-end; */
      display: flex;
        flex-direction: column;
        align-items: center;
@@ -201,12 +189,10 @@ header{
     min-height: 110px;
     color:rgb(73, 232, 238);
     text-align: center;
-    /* padding-top:-20px;  */
     margin: 10px;
     font-size: 1.1rem;
     font-family: 'Dosis', sans-serif;
        font-weight: 550;
-    /* align-self: flex-start; */
      display: flex;
        flex-direction: column;
        align-items: center;
@@ -218,16 +204,7 @@ width: 60px;
 .common{
       text-align: center;
       padding-top: ;
-
 }
-
-
-
-
-
-
-
-
 .fixed{
     background-color: brown;
     color: cornsilk;
