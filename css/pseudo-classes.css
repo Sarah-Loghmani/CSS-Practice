@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+     position: sticky;
+     top:0px;
+     background-color: white;
+     z-index:1;
+}
+.logo-container{
+    display: flex;
+}
+.logo{
+    border-radius: 40% 10% 10% 60%;
+    padding: 3px;
+    margin: 10px 0px 0px 30px ;
+    background: rgb(158, 146, 128);
+}
+.title{
+    background: rgba(221, 205, 183, 0.657);
+    width: 190px;
+    margin: 10px 1px -8px ;
+    padding:20px 0px 0px 1px ;
+    color: #0097A7;
+    border-radius: 40% 30% 300% 50%;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive; */
+    font-size: 1.08rem;
+    /* position: relative; */
+     font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-family: 'Yuji Syuku', serif;
+}
+.nav{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-family: 'Yuji Syuku', serif;
+    background: rgb(240, 196, 86);
+    min-height: 30px;
+}
+.options{
+    color:rgb(129, 7, 32);
+    color: black;
+    text-decoration: none;
+}
+.options:hover{
+    color: rgb(236, 18, 62);
+}
+.div-a{
+    /* display: flex;
+    flex-flow: wrap column; */
+
+}
+.css1, .css2, .css3{
+    width: 30vw;
+    min-height: 20vh;
+}
+.css-img1 {
+    position: relative;
+    /* left: 50px; */
+    /* width: 1213px; */
+    /* background-color: grey; */
+    display: flex;
+    justify-content: flex-end;
+}
+.css1{
+    position: relative; 
+    left: 10px
+}
+.css2{
+    position: relative; 
+    left: 5px
+}
+.css-img2{
+    margin-top:-40px ;
+    opacity: 50%;
+    /* background-color: black; */
+}
+
+
+
+.fixed{
+    background-color: brown;
+    color: cornsilk;
+    min-height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-family: 'Yuji Syuku', serif; 
+    padding: 8px ;
+    /* display: flex; */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+
+}

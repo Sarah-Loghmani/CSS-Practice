@@ -352,8 +352,13 @@ header{
 /* .etc */
 .classes-li :nth-child(9){
     position: relative;
-    right: 100px;
+    right: 200px;
     /* bottom: 800px; */
+    text-decoration: none;
+    color: rgb(35, 35, 36);
+}
+.classes-li :nth-child(9) :hover{
+    background-color: rgb(236, 191, 76);
 }
 
 
